@@ -1,0 +1,163 @@
+
+.logo-1{
+
+	height: 90px;
+	display: inline-block;
+
+}
+
+.logo-2{
+	display: inline-block;
+	height: 80px; 
+	width: 216px;
+	align-items: middle;	
+	
+}
+
+.logo-2-img {
+	height: 70px; 
+}
+@media all and (max-width: 850px){
+	.logo-2-img{
+		display: none;
+	} }
+
+
+	
+.redes-sociais {
+	width: 5%;
+	height: 5%;
+	float: center;
+	margin-left: 280px;
+	max-width: 80%;
+}
+
+@media all and (max-width: 1200px){
+	.redes-sociais{
+		display: none;
+	}}
+
+
+.logo3 {
+	margin-top: 4px;
+	float: right;
+	display: inline-block;
+	list-style: none;
+}
+
+.logo-3-1 {
+	margin-top: 2px;
+	margin-left: 20px;
+}
+
+.col-10{
+	width: 100%;
+	float: left;
+}
+
+
+
+
+.titulo-1 {
+	text-align: center;	 
+}
+
+.atendimento {
+	text-align: center;
+}
+
+.col-10{
+	width: 100%;
+	float: left;
+}
+
+.convencao img {
+	width: 100%;
+}
+
+.img-convencao:hover{
+	  -webkit-transform: scale(1.15);
+        -ms-transform: scale(1.15);
+        transform: scale(1.15);
+}
+
+
+
+.rodape{
+	margin-top: 5px;
+	text-align: center;
+	background-color: black;
+	height: 110px;
+}
+
+#rodape {
+	color: white;
+	text-align: center;
+}
+
+.faixa-rodape {
+	background-color: #4BACCD;
+	height: 12px;
+}
+
+
+
+.cct-row{
+	margin-left: 5%;
+	margin-right: 30px;
+	width: 90%;
+	margin-top: 1%;
+	display:flex;
+	justify-content: space-between;
+}
+
+.cct-row-2{
+	margin-left: 5%;
+	margin-right: 30px;
+	width: 90%;
+	margin-top: -3%;
+	display:flex;
+	justify-content: space-between;
+}
+
+
+.cct-col {
+	flex-basis: 31%;
+	background-color: ;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+	transition: 0.2s;
+}
+
+.img-div {
+	width: 70%;
+	margin-left: 16%;
+}
+
+.img-div:hover{
+	  -webkit-transform: scale(1.15);
+        -ms-transform: scale(1.15);
+        transform: scale(1.15);
+}
+
+
+@media(max-width: 800px){
+	.cct-row, .cct-row-2 {
+		flex-direction: column;
+	}
+}
+
+
+
+
+h4{
+	text-align: center;
+	margin: 10px 0;
+	}
+
+h4:hover{
+	text-align: center;
+	color: #073B4D;
+	}

@@ -1,0 +1,161 @@
+header {
+	background-color: white;	
+}
+
+body {
+	background-color: #FAFAFA;
+	
+}
+
+
+.logo-1{
+
+	height: 90px;
+	display: inline-block;
+
+}
+
+.logo-2{
+	display: inline-block;
+	height: 80px; 
+	width: 216px;
+	align-items: middle;	
+	
+}
+
+.logo-2-img {
+	height: 70px; 
+}
+@media all and (max-width: 850px){
+	.logo-2-img{
+		display: none;
+	} }
+
+@media screen and (max-width: 600px){
+
+.noticias-row {
+		flex-direction: column;
+	}
+}
+
+	
+.redes-sociais {
+	width: 5%;
+	height: 5%;
+	float: center;
+	margin-left: 280px;
+	max-width: 80%;
+}
+
+@media all and (max-width: 1200px){
+	.redes-sociais{
+		display: none;
+	}}
+
+
+.logo3 {
+	margin-top: 4px;
+	float: right;
+	display: inline-block;
+	list-style: none;
+}
+
+.logo-3-1 {
+	margin-top: 2px;
+	margin-left: 20px;
+}
+
+
+
+
+
+
+.titulo-1 {
+	text-align: center;	 
+}
+
+.atendimento {
+	text-align: center;
+}
+
+.slider-principal {
+
+	margin-top: 30px;
+	padding: 60px;
+	margin-left: 40px;
+}
+
+.imagens-principais {
+	margin-left: 20px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.noticias-row{
+	margin-left: 5%;
+	margin-right: 30px;
+	width: 90%;
+	margin-top: 2%;
+	display:flex;
+	justify-content: space-between;
+}
+
+.noticias-col {
+	flex-basis: 31%;
+	background-color: #B4BFBC;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+	transition: 0.2s;
+}
+
+.img-div {
+	width: 100%;
+}
+
+h3{
+	text-align: center;
+	font-weight: 600;
+	margin: 10px 0;
+	}
+
+.noticias-col:hover{
+	box-shadow: 0 0 50px 0px rgba(0,0,0,0.5)
+}
+
+.noticias-col {
+	text-align: justify;
+}
+
+.rodape{
+	margin-top: 5px;
+	text-align: center;
+	background-color: black;
+	height: 110px;
+}
+
+#rodape {
+	color: white;
+	text-align: center;
+	padding: 2px;
+}
+
+@media all and (max-width: 600px){
+	.rodape{
+	margin-top: 5px;
+	text-align: center;
+	background-color: black;
+	height: 138px;
+}
+}
+
+.faixa-rodape {
+	background-color: #4BACCD;
+	height: 12px;
+}
+
+@media all and (max-width:  600px){
+	#div1-noticias {
+	margin-top: 70px;
+}

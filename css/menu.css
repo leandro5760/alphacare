@@ -1,0 +1,280 @@
+body {
+	margin:  0;
+	padding: 0;
+	font-family: 'Poppins', 'sans-serif';
+	text-decoration: none;
+}
+
+
+
+.container{
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.toggle,
+[id^=drop] {
+	display: none;
+}
+
+nav {
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	top: 100px;
+	left: 0;
+	background-color: #4BACCD;
+	z-index: 100;
+}
+
+nav::after {
+
+}
+
+nav ul {
+	list-style: none;
+	position: relative;
+	margin: 0;
+	padding: 0; 
+}
+
+nav ul li {
+	float: left;
+	background-color: #4BACCD;
+	display: inline-block;
+}
+
+nav a {
+	display: flex;
+	align-items: center;
+	height: 60px;
+	padding: 0 47px;
+	color: black;
+	font-size: 20px;
+	text-decoration: none: 
+	text-transform: uppercase;
+}
+
+nav ul li ul li:hover{
+	background-color: black;
+}
+
+nav a:hover{
+	background-color: black;
+	color: white;
+}
+
+nav ul ul{
+	display: none;
+	position: absolute;
+	top: 60px;
+}
+
+nav ul li:hover > ul{
+	display: inherit;
+}
+
+nav ul ul li{
+	display: list-item;
+	width: 280px;
+	float: none;
+	position: relative;
+}
+
+nav ul ul ul li{
+	position: relative;
+	top: -60px;
+	left: 170px;
+}
+
+li > a:after{
+	content: " +";
+}
+
+li > a:only-child::after{
+	content: "";
+}
+
+@media all and (max-width: 1240px){
+	.container{
+		display: block;
+	}
+
+	.btn-menu{
+		float: left;
+		cursor: pointer;
+		height: 60px;
+		padding: 0 47px!important;
+		display: flex!important;
+		align-items: center;
+	}
+
+	nav{
+		margin: 0;
+	}
+
+	.toggle + a, 
+	.menu{
+		display: none;
+	}
+
+	.toggle{
+		display: flex;
+		align-items: center;
+		background-color: #4BACCD;
+		color: black;
+		font-size: 20px;
+		text-decoration: none;
+		border: 0;
+		padding: 0 47px;
+		height: 60px;
+	}
+
+	.toggle:hover{
+		background-color: black;
+		color: white;
+	}
+
+	[id^=drop]:checked + ul{
+		display: block;
+	}
+	
+	nav ul li{
+		display: block;
+		width: 100%;
+	}
+
+	nav a:hover,
+	nav ul ul ul a{
+		background-color: black;
+	}
+
+	nav ul li ul li .toggle,
+	nav ul ul a,
+	nav ul ul ul a{
+		color: black;
+	}
+
+	nav ul ul{
+		float: none;
+		position: static;
+		color: black;
+	}
+
+	nav ul ul ul li{
+		position: static;
+	}
+
+	nav ul ul li:hover > ul,
+	nav ul li:hover > ul {
+		display: none;
+	}
+
+	nav ul ul li{
+		display: block;
+		width: 100%%;
+	}
+
+	
+}
+
+a{
+	text-decoration: none;
+	text-align: left;
+}
+
+
+
+
+@media all and (max-width: 450px){
+	.container{
+		display: block;
+	}
+
+	.btn-menu{
+		float: left;
+		cursor: pointer;
+		height: 60px;
+		padding: 0 47px!important;
+		display: flex!important;
+		align-items: center;
+	}
+
+	nav{
+		margin: 0;
+	}
+
+	.toggle + a, 
+	.menu{
+		display: none;
+	}
+
+	.toggle{
+		display: flex;
+		align-items: center;
+		background-color: #4BACCD;
+		color: black;
+		font-size: 20px;
+		text-decoration: none;
+		border: 0;
+		padding: 0 47px;
+		height: 60px;
+	}
+
+	.toggle:hover{
+		background-color: black;
+		color: white;
+	}
+
+	[id^=drop]:checked + ul{
+		display: block;
+	}
+	
+	nav ul li{
+		display: block;
+		width: 100%;
+	}
+
+	nav a:hover,
+	nav ul ul ul a{
+		background-color: black;
+	}
+
+	nav ul li ul li .toggle,
+	nav ul ul a,
+	nav ul ul ul a{
+		color: black;
+	}
+
+	nav ul ul{
+		float: none;
+		position: static;
+		color: black;
+	}
+
+	nav ul ul ul li{
+		position: static;
+	}
+
+	nav ul ul li:hover > ul,
+	nav ul li:hover > ul {
+		display: none;
+	}
+
+	nav ul ul li{
+		display: block;
+		width: 100%%;
+	}
+
+	
+}
+
+a{
+	text-decoration: none;
+	text-align: left;
+}
